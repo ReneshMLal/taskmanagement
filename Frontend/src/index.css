@@ -1,0 +1,34 @@
+
+.container{
+  position: relative;
+  background-color: #fafafe;
+  border-radius: 10px;
+  margin: 40px;
+  padding:10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  width: 320px;
+}
+.flex-container{
+  display: flex;
+}
+
+button{
+  font-weight: 100;
+}
+.listitem{
+  padding: 8px;
+}
+
+.checkbox{
+  width: 16px;
+  height: 16px;
+  border: 2px solid #cccccc;
+  background-color: #fff;
+}
+
+.checkbox:checked~span{
+  text-decoration: line-through;
+
+}
+
+h2{text-align: center; color:deepskyblue}
